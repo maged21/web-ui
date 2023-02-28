@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --blue:#3d37f1;
+    --orange:#ff8923;
+    --service1: #fbba77;
+    --bg: #f8f8f8;
+}
+
+/* nav */
+.nav-btn{
+    background-color: var(--orange) !important;
+}
+.nav-img{
+    position: absolute;
+    top: -30;
+    right: 0;
+    width: 70%;
+    padding: 0;
+}
+.navbar-nav{
+    position: absolute;
+    right: 120;
+}
+
+.nav-item a{
+    color: white;
+}
+
+/* hero */
+
+#hero{
+    margin-top: 10rem;
+}
+
+.h-btn{
+    background-color: var(--blue) !important;
+    color: white;
+    box-shadow: 0px 5px 20px 0 var(--blue);
+    border: 1 solid var(--blue) !important;
+}
+
+/* services */
+#service{
+    background-color: var(--bg);
+}
+
+#service .title h3{
+    color: var(--blue);
+}
+
+#service .row .web{
+    background: linear-gradient(#FBBA77,#DFA871)
+}
+
+.redesign{
+    background: linear-gradient(#41EAE3, #2293B7);
+}
+
+.aui{
+    background: linear-gradient(#69529F, #463864);
+}
+
+.mobileui{
+    background: linear-gradient(#4386D2, #0962C5);
+}
+
+.webui{
+    background: linear-gradient(#A5A2F6, #564FD6);
+}
+
+.elements{
+    background: linear-gradient(#FF8088, #984141);
+}
+#service .row h3,p{
+    color: white;
+}
+
+
+
+.fa-play{
+    background-color: var(--blue) !important;
+    color: white;
+    position: relative;
+}
+.ab{
+    position: relative;
+    margin-top: 20px;
+}
+.ab::before{
+    position: absolute;
+    content: '';
+    bottom: 8px;
+    left: -43px;
+    width: 25%;
+    height: 4px;
+    background-color: gray;
+}
+
+/* portfolio */
+#portfolio{
+    background-color: var(--bg);
+}
+
+.port{
+    color: var(--blue);
+    position: relative;
+}
+
+.port::after{
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    width: 80%;
+    height: 1;
+    background-color: var(--blue);
+}
+
+
+/* success */
+
+#success .row .box{
+    box-shadow: 0px 10px 20px 0 red;
+    /* border-radius: 50px; */
+
+}
+
+.s-glass{
+background: rgba(255, 255, 255, 0.57);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9px);
+-webkit-backdrop-filter: blur(9px);
+border: 1px solid rgba(255, 255, 255, 0.32);
+}
+.row .num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+    background: linear-gradient(#AF94FD, #6651F3);
+    color: white;
+    text-align: center;
+}
+
+/* us */
+#us{
+    background-color: #0C0F32;
+}
+#us .us-title h2{
+    color: white;
+}
+
+#us .us-content{
+    position: relative;
+    margin-bottom: 50px;
+}
+#us .us-content::after{
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #707070;
+}
+.cr{
+    color: #8F8BFF !important;
+}
+
+#work{
+    background-color: var(--bg);
+}
+
+.row .design{
+    /* background-image: url(/images/bg.png) !important; */
+    background-color: #131B7C;
+    border-radius: 15px;
+}
+
+.row .sketch{
+    background-color: #F36F21;
+    border-radius: 15px;
+}
+
+.row .test{
+    background-color: #A5A2F6;
+    border-radius: 15px;
+}
+
+/* workflow */
+#workflow{
+    background-color: #FBFCFD;
+}
+
+/* blog */
+#blog{
+    background-color: #FBFCFD;
+}
+.blog-box{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-ay{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 5px solid rgba(255, 255, 255, 0.32);
+    padding: 10% 25%;
+}
+
+.su-1num{
+    padding: 50px 10px;
+    border-radius: 20px;
+    background: linear-gradient(#AF94FD, #6651F3);
+    color: white;
+    font-size: 40px;
+    box-shadow: 0 12px 20px 0 rgba(102, 81, 243, 0.4);
+}
+
+.su-2num{
+    padding: 50px 10px;
+    border-radius: 20px;
+    background: linear-gradient(#ff95a5, #FF62A3);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 0 12px 20px 0 rgba(255, 98, 163, 0.4);
+}
+
+.su-3num{
+    padding: 50px 10px;
+    border-radius: 20px;
+    background: linear-gradient(#FBC9A4, #FF884A);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 0px 12px 20px 0px rgba(255, 136, 74, 0.4);
+}
